@@ -1,0 +1,14 @@
+/* CSS for our Shop page */
+
+
+
+.shop-header {
+    background-image: url('https://img.gurugamer.com/resize/740x-/2021/06/02/grass-pokemons-are-cute-b627.jpg');
+    background-size: cover;
+    height: 700px;
+    color: white;
+}
+
+.shop-stats {
+    color: white;
+}
