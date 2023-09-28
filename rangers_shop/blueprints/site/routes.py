@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, flash, redirect
 
 #internal imports
-from rangers_shop.models import Product, Customer, ProdOrder, Order, db, product_schema, products_schema 
+from rangers_shop.models import Product, Customer, ProdOrder, Order, db
 from rangers_shop.forms import ProductForm
 
 
