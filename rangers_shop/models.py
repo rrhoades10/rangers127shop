@@ -210,7 +210,7 @@ class ProductSchema(ma.Schema):
 
 
 product_schema = ProductSchema() #this is for passing 1 singular product 
-products_schema = ProductSchema(many = True) #this for passing multiple products, list of dictionaries 
+product_schemas = ProductSchema(many = True) #this for passing multiple products, list of dictionaries 
     
 
     
