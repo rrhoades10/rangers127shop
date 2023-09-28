@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify 
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
-from ecommerce_app.models import db, Customer, ProdOrder, Order,  Product, product_schema, product_schemas
+from rangers_shop.models import db, Customer, ProdOrder, Order,  Product, product_schema, product_schemas
 
 
 api = Blueprint('api', __name__, url_prefix='/api')
