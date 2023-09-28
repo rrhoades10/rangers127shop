@@ -97,6 +97,8 @@ def create_order(cust_id):
     order = Order()
     db.session.add(order)
 
+    print(order)
+
     for product in cust_order:
         print(product)
         prodord = ProdOrder(product['prod_id'], product['quantity'], product['price'], order.order_id, customer.cust_id)
